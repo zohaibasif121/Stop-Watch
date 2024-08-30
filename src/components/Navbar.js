@@ -10,13 +10,13 @@ function Navbar() {
         <img src={logo} alt='logo' className='ms-10 me-5'/>
         {/* </div> */}
         <ul className='space-x-4 p-2'>
-      <NavLink to={`/stopwatch`}
+      <NavLink to={`/`}
       className={({isActive})=>
       isActive ? 'font-bold text-lg': ''
       }
       >StopWatch </NavLink>
 
-      <NavLink to={`/`}
+      <NavLink to={`/Timer`}
       className={({isActive})=>
       isActive? 'font-bold text-lg':''
       }
