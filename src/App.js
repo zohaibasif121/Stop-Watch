@@ -8,8 +8,8 @@ function App() {
     <div>
       <Navbar/ >
       <Routes>
-        <Route path='/' element={<Timer/>} />
-        <Route path='stopwatch' element={<Stopwatch/>} />
+        <Route path='Timer' element={<Timer/>} />
+        <Route path='/' element={<Stopwatch/>} />
       </Routes>
 
     </div>
